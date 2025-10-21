@@ -3,6 +3,7 @@ import HowItWorks from './components/HowItWorks'
 import Expertise from './components/Expertise'
 import Featured from './components/Featured'
 import WhyStyleSync from './components/WhyStyleSync'
+import Team from './components/Team'  
 import Pricing from './components/Pricing'
 import Testimonials from './components/Testimonials'
 import Newsletter from './components/Newsletter'
@@ -16,6 +17,7 @@ function App() {
       <Expertise />
       <Featured />
       <WhyStyleSync />
+      <Team />  
       <Pricing />
       <Testimonials />
       <Newsletter />
