@@ -4,25 +4,25 @@ const Team = () => {
       name: "Sofia Ribeiro", 
       role: "CEO & Co-fundadora", 
       bio: "Ex-stylist de celebridades, apaixonada por tech",
-      img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop"
+      img: "/images/img7.jpg"
     },
     { 
       name: "Rafael Santos", 
       role: "CTO & Co-fundador", 
       bio: "Especialista em IA e machine learning",
-      img: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop"
+      img: "/images/img8.jpg"
     },
     { 
       name: "Camila Torres", 
       role: "Head de Styling", 
       bio: "15 anos de experiência em moda",
-      img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop"
+      img: "/images/img9.jpg"
     },
     { 
       name: "Lucas Mendes", 
       role: "Lead Designer", 
       bio: "Design thinking aplicado à moda",
-      img: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop"
+      img: "/images/img10.jpg"
     }
   ];
   

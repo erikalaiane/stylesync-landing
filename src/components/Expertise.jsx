@@ -1,9 +1,9 @@
 const Expertise = () => {
   const categories = [
-    { title: "STREETWEAR", img: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=300&fit=crop", color: "from-red-900 to-red-700" },
-    { title: "CASUAL CHIC", img: "https://images.unsplash.com/photo-1445205170230-053b83016050?w=400&h=300&fit=crop", color: "from-pink-600 to-pink-400" },
-    { title: "BUSINESS", img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop", color: "from-gray-800 to-gray-600" },
-    { title: "EVENING", img: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?w=400&h=300&fit=crop", color: "from-purple-900 to-red-900" }
+    { title: "STREETWEAR", img: "/images/img2.jpg", color: "from-red-900 to-red-700" },
+    { title: "CASUAL CHIC", img: "/images/img3.jpg", color: "from-pink-600 to-pink-400" },
+    { title: "BUSINESS", img: "/images/img4.jpg", color: "from-gray-800 to-gray-600" },
+    { title: "EVENING", img: "/images/img5.jpg", color: "from-purple-900 to-red-900" }
   ];
   
   return (

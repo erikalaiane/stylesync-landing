@@ -2,9 +2,27 @@ import { Star } from 'lucide-react';
 
 const Testimonials = () => {
   const testimonials = [
-    { name: "Maria Silva", role: "Influencer", text: "StyleSync revolucionou minha forma de me vestir!", rating: 5 },
-    { name: "João Costa", role: "Executivo", text: "Economizo tempo e sempre estou bem vestido.", rating: 5 },
-    { name: "Ana Oliveira", role: "Designer", text: "A IA entende perfeitamente meu estilo!", rating: 5 }
+    { 
+      name: "Maria Silva", 
+      role: "Influencer", 
+      text: "StyleSync revolucionou minha forma de me vestir!", 
+      rating: 5,
+      img: "/images/img11.jpg"
+    },
+    { 
+      name: "João Costa", 
+      role: "Executivo", 
+      text: "Economizo tempo e sempre estou bem vestido.", 
+      rating: 5,
+      img: "/images/img12.jpg"
+    },
+    { 
+      name: "Ana Oliveira", 
+      role: "Designer", 
+      text: "A IA entende perfeitamente meu estilo!", 
+      rating: 5,
+      img: "/images/img13.jpg"
+    }
   ];
   
   return (
@@ -25,7 +43,11 @@ const Testimonials = () => {
               </div>
               <p className="text-gray-700 mb-4 text-lg italic">"{test.text}"</p>
               <div className="flex items-center">
-                <div className="w-12 h-12 bg-gradient-to-br from-red-900 to-pink-600 rounded-full mr-3"></div>
+                <img 
+                  src={test.img} 
+                  alt={test.name}
+                  className="w-12 h-12 rounded-full mr-3 object-cover border-2 border-pink-600"
+                />
                 <div>
                   <p className="font-black text-gray-900">{test.name}</p>
                   <p className="text-sm text-gray-600">{test.role}</p>
