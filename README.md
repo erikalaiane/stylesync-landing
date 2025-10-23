@@ -1,228 +1,267 @@
-# StyleSync Landing Page
+# 💎 StyleSync - Landing Page
 
-> Plataforma de styling pessoal impulsionada por IA com vibe urbana e moderna
+<div align="center">
+  
+  ![StyleSync Banner](./capa1.png)
+  
+  <p align="center">
+    <strong>Seu stylist pessoal, sempre disponível ✨</strong>
+  </p>
+  
+  <p align="center">
+    Landing page moderna e elegante para plataforma de consultoria de moda personalizada
+  </p>
 
-![StyleSync](https://img.shields.io/badge/StyleSync-Fashion%20Tech-E63946?style=for-the-badge)
-![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC?style=for-the-badge&logo=tailwind-css)
-![Vite](https://img.shields.io/badge/Vite-5.0-646CFF?style=for-the-badge&logo=vite)
+  <p align="center">
+    <a href="https://erikalaiane.github.io/stylesync-landing/">🌐 Ver Demo</a>
+    ·
+    <a href="#-sobre">📖 Sobre</a>
+    ·
+    <a href="#-tecnologias">🛠️ Tecnologias</a>
+    ·
+    <a href="#-contato">💌 Contato</a>
+  </p>
 
-## Sobre o Projeto
+  ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white)
+  ![Vite](https://img.shields.io/badge/Vite-5.4.10-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.15-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+  ![License](https://img.shields.io/badge/License-MIT-8B1538?style=for-the-badge)
 
-StyleSync é uma landing page moderna para uma startup de moda que utiliza inteligência artificial para criar looks personalizados. O design combina elementos de street art e graffiti com uma paleta de cores vibrante em tons de vinho, rosa e amarelo.
+</div>
 
-### Destaques
+---
 
--  **Design Urbano**: Inspirado em graffiti e street art
--  **Paleta Vibrante**: Tons de vinho (#8B1538), pink (#FF006E) e amarelo (#FFB703)
--  **Totalmente Responsivo**: Funciona perfeitamente em todos os dispositivos
--  **Performance**: Construído com Vite para carregamento ultrarrápido
--  **Animações**: Efeitos hover e transformações suaves
+## Sobre
+
+**StyleSync** é uma landing page desenvolvida para uma plataforma de consultoria de moda personalizada. O projeto apresenta um design moderno e elegante com paleta de cores vinho e dourado, criando uma experiência visual sofisticada e envolvente.
+
+### Características
+
+-  **Design Elegante**: Paleta de cores vinho e dourado cuidadosamente selecionada
+-  **Responsivo**: Totalmente adaptável para todos os dispositivos
+-  **Performance**: Otimizado com Vite para carregamento ultra-rápido
+-  **Animações**: Transições e efeitos suaves que encantam
+-  **Componentizado**: Arquitetura modular com React
+-  **SEO Friendly**: Estrutura otimizada para mecanismos de busca
+
+---
+
+## Preview
+
+<div align="center">
+  
+  ![Desktop View](./capa1.png)
+  
+  ![Mobile View](./capa2.png)
+
+</div>
+
+---
 
 ## Tecnologias
 
-- **React 18** - Framework JavaScript
-- **Vite** - Build tool e dev server
-- **Tailwind CSS** - Framework CSS utility-first
-- **Lucide React** - Biblioteca de ícones moderna
-- **Unsplash** - Imagens de alta qualidade
+Este projeto foi construído com as seguintes tecnologias:
 
-##  Instalação
+### Core
+
+- **[React](https://react.dev/)** `18.3.1` - Biblioteca JavaScript para construção de interfaces
+- **[Vite](https://vitejs.dev/)** `5.4.10` - Build tool de nova geração
+- **[Tailwind CSS](https://tailwindcss.com/)** `3.4.15` - Framework CSS utility-first
+
+### Ferramentas de Desenvolvimento
+
+- **[ESLint](https://eslint.org/)** - Linter para identificar e reportar padrões no código
+- **[PostCSS](https://postcss.org/)** - Ferramenta para transformar CSS com JavaScript
+- **[Autoprefixer](https://github.com/postcss/autoprefixer)** - Plugin PostCSS para adicionar prefixos de fornecedores
+
+### Plugins
+
+- **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react)** - Plugin oficial do React para Vite
+- **[vite-plugin-svgr](https://github.com/pd4d10/vite-plugin-svgr)** - Plugin para importar SVGs como componentes React
+
+---
+
+## Começando
 
 ### Pré-requisitos
 
-- Node.js (versão 16 ou superior)
-- npm ou yarn
+Antes de começar, certifique-se de ter instalado:
 
-### Passos
+- [Node.js](https://nodejs.org/) (versão 18 ou superior)
+- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+
+### Instalação
 
 1. Clone o repositório
 ```bash
 git clone https://github.com/erikalaiane/stylesync-landing.git
+```
+
+2. Entre no diretório do projeto
+```bash
 cd stylesync-landing
 ```
 
-2. Instale as dependências
+3. Instale as dependências
 ```bash
 npm install
+# ou
+yarn install
 ```
 
-3. Inicie o servidor de desenvolvimento
+4. Inicie o servidor de desenvolvimento
 ```bash
 npm run dev
+# ou
+yarn dev
 ```
 
-4. Abra o navegador em `http://localhost:5173`
+5. Abra [http://localhost:5173](http://localhost:5173) no seu navegador
+
+---
+
+## Build
+
+Para criar a versão de produção:
+
+```bash
+npm run build
+# ou
+yarn build
+```
+
+Para preview da build:
+
+```bash
+npm run preview
+# ou
+yarn preview
+```
+
+---
 
 ## Estrutura do Projeto
 
 ```
 stylesync-landing/
+├── public/              # Arquivos públicos estáticos
 ├── src/
-│   ├── components/
-│   │   ├── Hero.jsx           # Seção hero principal
-│   │   ├── HowItWorks.jsx     # Como funciona (3 passos)
-│   │   ├── Expertise.jsx      # Grid de estilos/categorias
-│   │   ├── Featured.jsx       # Banner promocional grande
-│   │   ├── WhyStyleSync.jsx   # Benefícios do produto
-│   │   ├── Team.jsx           # Seção da equipe
-│   │   ├── Pricing.jsx        # Planos e preços
-│   │   ├── Testimonials.jsx   # Depoimentos de clientes
-│   │   ├── Newsletter.jsx     # Captura de email
-│   │   └── Footer.jsx         # Rodapé com links
-│   ├── App.jsx                # Componente principal
-│   ├── main.jsx              # Entry point
-│   └── index.css             # Estilos globais
-├── public/                    # Assets estáticos
-├── index.html                # HTML principal
-├── tailwind.config.js        # Configuração do Tailwind
-├── vite.config.js           # Configuração do Vite
-└── package.json             # Dependências do projeto
+│   ├── components/      # Componentes React
+│   │   ├── Header.jsx
+│   │   ├── Hero.jsx
+│   │   ├── HowItWorks.jsx
+│   │   ├── Expertise.jsx
+│   │   ├── Featured.jsx
+│   │   ├── WhyStyleSync.jsx
+│   │   ├── Pricing.jsx
+│   │   ├── Testimonials.jsx
+│   │   ├── Team.jsx
+│   │   ├── Newsletter.jsx
+│   │   └── Footer.jsx
+│   ├── App.jsx          # Componente principal
+│   ├── main.jsx         # Entry point
+│   └── index.css        # Estilos globais
+├── index.html
+├── package.json
+├── tailwind.config.js   # Configuração do Tailwind
+└── vite.config.js       # Configuração do Vite
 ```
 
-## 🎨 Paleta de Cores
+---
 
-| Cor | Hex | Uso |
-|-----|-----|-----|
-| Vinho Principal | `#8B1538` | Elementos principais, gradientes |
-| Vinho Claro | `#B8395E` | Hover states, destaques |
-| Graffiti Red | `#E63946` | Acentos vibrantes |
-| Neon Pink | `#FF006E` | CTAs importantes |
-| Street Yellow | `#FFB703` | Badges, alertas |
-| Grafite | `#2B2D42` | Texto escuro, backgrounds |
-| Cinza Urbano | `#8D99AE` | Texto secundário |
+## Paleta de Cores
 
-## Seções da Landing Page
+```css
+/* Vinho */
+--primary: #8B1538
+--primary-dark: #6B0F2A
+--primary-light: #B91D47
 
-1. **Hero** - Apresentação principal com CTA
-2. **How It Works** - 3 passos do processo
-3. **Expertise** - 4 categorias de estilo (Streetwear, Casual, Business, Evening)
-4. **Featured** - Banner promocional com nova coleção
-5. **Why StyleSync** - 4 benefícios principais
-6. **Team** - Equipe de 4 membros
-7. **Pricing** - 3 planos (Básico, Pro, Premium)
-8. **Testimonials** - 3 depoimentos com avaliações
-9. **Newsletter** - Captura de email
-10. **Footer** - Links úteis e redes sociais
+/* Dourado */
+--accent: #D4AF37
+--accent-light: #F4D03F
+--accent-dark: #B8941F
 
-## Scripts Disponíveis
+/* Secundário */
+--secondary: #2D1B2E
+--secondary-light: #4A2F4D
 
-```bash
-# Desenvolvimento
-npm run dev
-
-# Build para produção
-npm run build
-
-# Preview da build
-npm run preview
-
-# Lint
-npm run lint
+/* Pop */
+--pop: #E91E63
+--pop-light: #F48FB1
 ```
 
-## Customização
+---
 
-### Alterar Cores
+## Funcionalidades
 
-Edite o arquivo `tailwind.config.js`:
+- ✅ Header fixo com efeito de scroll
+- ✅ Hero section com gradiente e animações
+- ✅ Seção "Como Funciona" com cards interativos
+- ✅ Grid de especialidades com hover effects
+- ✅ Banner de promoção destacado
+- ✅ Cards de benefícios
+- ✅ Tabela de preços comparativa
+- ✅ Depoimentos de clientes com fotos
+- ✅ Newsletter com formulário
+- ✅ Footer completo com links e redes sociais
+- ✅ Menu mobile responsivo
+- ✅ Animações e transições suaves
 
-```javascript
-theme: {
-  extend: {
-    colors: {
-      primary: '#B91C1C',        // Sua cor primária
-      'primary-dark': '#7F1D1D', // Variação escura
-      secondary: '#1F2937',      // Cor secundária
-      accent: '#F59E0B',         // Cor de destaque
-      pop: '#10B981',            // Cor vibrante
-    },
-  },
-}
-```
-
-### Alterar Imagens
-
-Substitua as URLs do Unsplash nos componentes por suas próprias imagens:
-
-```jsx
-// Exemplo no Hero.jsx
-<img 
-  src="SUA_IMAGEM_AQUI.jpg" 
-  alt="Fashion" 
-/>
-```
-
-### Adicionar Novas Seções
-
-1. Crie um novo componente em `src/components/`
-2. Importe no `App.jsx`
-3. Adicione na estrutura do componente App
+---
 
 ## Responsividade
 
-O projeto utiliza breakpoints do Tailwind CSS:
+O projeto é totalmente responsivo e foi testado em:
 
-- **sm**: 640px
-- **md**: 768px
-- **lg**: 1024px
-- **xl**: 1280px
-- **2xl**: 1536px
+-  Mobile (320px - 767px)
+-  Tablet (768px - 1023px)
+-  Desktop (1024px+)
+-  Large Desktop (1440px+)
 
-## 🚀 Deploy
+---
 
-### Vercel (Recomendado)
+##  Contribuindo
 
-```bash
-npm install -g vercel
-vercel
-```
+Contribuições são sempre bem-vindas! Sinta-se à vontade para:
 
-### Netlify
+1. Fazer um Fork do projeto
+2. Criar uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abrir um Pull Request
 
-```bash
-npm run build
-# Faça upload da pasta dist/
-```
+---
 
-## Contribuindo
-
-1. Faça um fork do projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
-3. Commit suas mudanças (`git commit -m 'Adiciona MinhaFeature'`)
-4. Push para a branch (`git push origin feature/MinhaFeature`)
-5. Abra um Pull Request
-
-## 📝 Melhorias Futuras
-
-- [ ] Adicionar animações com Framer Motion
-- [ ] Implementar dark mode
-- [ ] Integrar com backend para newsletter
-- [ ] Adicionar mais idiomas (i18n)
-- [ ] Criar seção de FAQ
-- [ ] Adicionar blog
-- [ ] Implementar chat ao vivo
-- [ ] Otimizar imagens com next/image ou similar
-- [ ] Adicionar testes unitários
-- [ ] Implementar Analytics
-
-
-## 👩‍💻 Autora
+## Autora
 
 **Erika Laiane**
 
 - GitHub: [@erikalaiane](https://github.com/erikalaiane)
+- LinkedIn: [Erika Laiane](https://linkedin.com/in/erikalaiane)
+
+---
+
+## Contato
+
+Tem alguma dúvida ou sugestão? Entre em contato!
+
+- 📧 Email: erikalaianeazevedosantos@gmail.com
+- 💼 LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/erika-laiane-azevedo)
+
+---
 
 ## Agradecimentos
 
-- Design inspirado em cultura urbana e street art
-- Ícones por [Lucide Icons](https://lucide.dev)
+- Design inspirado nas melhores práticas de UI/UX
+- Ícones e imagens do [Unsplash](https://unsplash.com)
+- Comunidade React e Tailwind CSS
 
 ---
 
 <div align="center">
-
-**Feito com ❤️ e muito ☕ por Erika Laiane**
-
+  
+  **Feito com 💜 e ☕ por [Erika Laiane](https://github.com/erikalaiane)**
+  
 
 </div>
