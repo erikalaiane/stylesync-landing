@@ -1,142 +1,110 @@
 # StyleSync - Landing Page
 
 <div align="center">
-  
-  ![StyleSync Banner](./capa1.png)
-  ![StyleSync Banner](./capa2.png)
-  
-  <p align="center">
-    <strong>Seu stylist pessoal, sempre disponível ✨</strong>
-  </p>
-  
-  <p align="center">
-    Landing page moderna e elegante para plataforma de consultoria de moda personalizada
-  </p>
 
-  <p align="center">
-    <a href="https://erikalaiane.github.io/stylesync-landing/">🌐 Ver Demo</a>
-    ·
-    <a href="#-sobre"> Sobre</a>
-    ·
-    <a href="#-tecnologias"> Tecnologias</a>
-    ·
-    <a href="#-contato"> Contato</a>
-  </p>
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-  ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-  ![Vite](https://img.shields.io/badge/Vite-5.4.10-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.15-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-  ![License](https://img.shields.io/badge/License-MIT-8B1538?style=for-the-badge)
+[![Demo](https://img.shields.io/badge/Demo-StyleSync-8B1538?style=for-the-badge&logo=vercel&logoColor=white)](https://erikalaiane.github.io/stylesync-landing/)
+
+**Seu stylist pessoal, sempre disponível ✨**
+
+Landing page moderna e elegante para plataforma de consultoria de moda personalizada
 
 </div>
 
 ---
 
-## Sobre
+## Sobre o Projeto
 
-**StyleSync** é uma landing page desenvolvida para uma plataforma de consultoria de moda personalizada. O projeto apresenta um design moderno e elegante com paleta de cores vinho e dourado, criando uma experiência visual sofisticada e envolvente.
+**StyleSync** é uma landing page desenvolvida para uma plataforma de consultoria de moda personalizada. O projeto apresenta um design sofisticado com paleta de cores vinho e dourado, criando uma experiência visual elegante e envolvente.
 
-### Características
+### Características Principais
 
--  **Design Elegante**: Paleta de cores vinho e dourado cuidadosamente selecionada
--  **Responsivo**: Totalmente adaptável para todos os dispositivos
--  **Performance**: Otimizado com Vite para carregamento ultra-rápido
--  **Animações**: Transições e efeitos suaves que encantam
--  **Componentizado**: Arquitetura modular com React
--  **SEO Friendly**: Estrutura otimizada para mecanismos de busca
+- Design elegante com paleta vinho e dourado
+- Totalmente responsivo para todos os dispositivos
+- Performance otimizada com Vite
+- Animações e transições suaves
+- Arquitetura componentizada com React
+- SEO Friendly
+
+---
+
+## Tecnologias Utilizadas
+
+- **[React](https://react.dev/)** `18.3.1` - Biblioteca JavaScript para construção de interfaces
+- **[Vite](https://vitejs.dev/)** `5.4.10` - Build tool moderna e extremamente rápida
+- **[Tailwind CSS](https://tailwindcss.com/)** `3.4.15` - Framework CSS utility-first para estilização rápida
+- **[ESLint](https://eslint.org/)** - Linter para manter código limpo e padronizado
+- **[PostCSS](https://postcss.org/)** - Ferramenta para transformar CSS
+- **[Autoprefixer](https://github.com/postcss/autoprefixer)** - Adiciona prefixos de fornecedores automaticamente
 
 ---
 
 ## Preview
 
 <div align="center">
-  
-  ![Desktop View](./capa1.png)
-  
-  ![Mobile View](./capa2.png)
+
+### Desktop View
+![Desktop Preview](./capa1.png)
+
+### Mobile View
+![Mobile Preview](./capa2.png)
+
+**[🚀 Ver Demo ao Vivo](https://erikalaiane.github.io/stylesync-landing/)**
 
 </div>
 
 ---
 
-## Tecnologias
-
-Este projeto foi construído com as seguintes tecnologias:
-
-### Core
-
-- **[React](https://react.dev/)** `18.3.1` - Biblioteca JavaScript para construção de interfaces
-- **[Vite](https://vitejs.dev/)** `5.4.10` - Build tool de nova geração
-- **[Tailwind CSS](https://tailwindcss.com/)** `3.4.15` - Framework CSS utility-first
-
-### Ferramentas de Desenvolvimento
-
-- **[ESLint](https://eslint.org/)** - Linter para identificar e reportar padrões no código
-- **[PostCSS](https://postcss.org/)** - Ferramenta para transformar CSS com JavaScript
-- **[Autoprefixer](https://github.com/postcss/autoprefixer)** - Plugin PostCSS para adicionar prefixos de fornecedores
-
-### Plugins
-
-- **[@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react)** - Plugin oficial do React para Vite
-- **[vite-plugin-svgr](https://github.com/pd4d10/vite-plugin-svgr)** - Plugin para importar SVGs como componentes React
-
----
-
-## Começando
+## Como Rodar o Projeto
 
 ### Pré-requisitos
 
-Antes de começar, certifique-se de ter instalado:
-
-- [Node.js](https://nodejs.org/) (versão 18 ou superior)
-- [npm](https://www.npmjs.com/) ou [yarn](https://yarnpkg.com/)
+- Node.js (versão 18 ou superior)
+- npm ou yarn
 
 ### Instalação
 
-1. Clone o repositório
+1. **Clone o repositório**
+
 ```bash
 git clone https://github.com/erikalaiane/stylesync-landing.git
 ```
 
-2. Entre no diretório do projetox
+2. **Entre no diretório do projeto**
+
 ```bash
 cd stylesync-landing
 ```
 
-3. Instale as dependências
+3. **Instale as dependências**
+
 ```bash
 npm install
-# ou
-yarn install
 ```
 
-4. Inicie o servidor de desenvolvimento
+4. **Inicie o servidor de desenvolvimento**
+
 ```bash
 npm run dev
-# ou
-yarn dev
 ```
 
-5. Abra [http://localhost:5173](http://localhost:5173) no seu navegador
+5. **Abra no navegador**
+
+Acesse [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## Build
-
-Para criar a versão de produção:
+## Scripts Disponíveis
 
 ```bash
-npm run build
-# ou
-yarn build
-```
-
-Para preview da build:
-
-```bash
-npm run preview
-# ou
-yarn preview
+npm run dev      # Inicia servidor de desenvolvimento
+npm run build    # Cria build de produção
+npm run preview  # Preview da build de produção
+npm run lint     # Executa o linter
+npm run deploy   # Faz deploy para GitHub Pages
 ```
 
 ---
@@ -145,7 +113,8 @@ yarn preview
 
 ```
 stylesync-landing/
-├── public/              # Arquivos públicos estáticos
+├── public/
+│   └── images/          # Imagens do site
 ├── src/
 │   ├── components/      # Componentes React
 │   │   ├── Header.jsx
@@ -160,12 +129,12 @@ stylesync-landing/
 │   │   ├── Newsletter.jsx
 │   │   └── Footer.jsx
 │   ├── App.jsx          # Componente principal
-│   ├── main.jsx         # Entry point
+│   ├── main.jsx         # Ponto de entrada
 │   └── index.css        # Estilos globais
 ├── index.html
 ├── package.json
-├── tailwind.config.js   # Configuração do Tailwind
-└── vite.config.js       # Configuração do Vite
+├── tailwind.config.js  # Configuração do Tailwind
+└── vite.config.js      # Configuração do Vite
 ```
 
 ---
@@ -196,41 +165,41 @@ stylesync-landing/
 
 ## Funcionalidades
 
-- ✅ Header fixo com efeito de scroll
-- ✅ Hero section com gradiente e animações
-- ✅ Seção "Como Funciona" com cards interativos
-- ✅ Grid de especialidades com hover effects
-- ✅ Banner de promoção destacado
-- ✅ Cards de benefícios
-- ✅ Tabela de preços comparativa
-- ✅ Depoimentos de clientes com fotos
-- ✅ Newsletter com formulário
-- ✅ Footer completo com links e redes sociais
-- ✅ Menu mobile responsivo
-- ✅ Animações e transições suaves
+- Header fixo com efeito de scroll
+- Hero section com gradiente e animações
+- Seção "Como Funciona" com cards interativos
+- Grid de especialidades com hover effects
+- Banner de promoção destacado
+- Cards de benefícios
+- Tabela de preços comparativa
+- Depoimentos de clientes
+- Newsletter com formulário
+- Footer completo com links e redes sociais
+- Menu mobile responsivo
+- Animações e transições suaves
 
 ---
 
 ## Responsividade
 
-O projeto é totalmente responsivo e foi testado em:
+O projeto é totalmente responsivo e testado em:
 
--  Mobile (320px - 767px)
--  Tablet (768px - 1023px)
--  Desktop (1024px+)
--  Large Desktop (1440px+)
+- Mobile (320px - 767px)
+- Tablet (768px - 1023px)
+- Desktop (1024px+)
+- Large Desktop (1440px+)
 
 ---
 
-##  Contribuindo
+## Contribuindo
 
-Contribuições são sempre bem-vindas! Sinta-se à vontade para:
+Contribuições são sempre bem-vindas! Para contribuir:
 
-1. Fazer um Fork do projeto
-2. Criar uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abrir um Pull Request
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abra um Pull Request
 
 ---
 
@@ -238,31 +207,14 @@ Contribuições são sempre bem-vindas! Sinta-se à vontade para:
 
 **Erika Laiane**
 
-- GitHub: [@erikalaiane](https://github.com/erikalaiane)
-- LinkedIn: [Erika Laiane](https://linkedin.com/in/erikalaiane)
-
----
-
-## Contato
-
-Tem alguma dúvida ou sugestão? Entre em contato!
-
-- 📧 Email: erikalaianeazevedosantos@gmail.com
-- 💼 LinkedIn: [Seu LinkedIn](https://www.linkedin.com/in/erika-laiane-azevedo)
-
----
-
-## Agradecimentos
-
-- Design inspirado nas melhores práticas de UI/UX
-- Ícones e imagens do [Unsplash](https://unsplash.com)
-- Comunidade React e Tailwind CSS
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/erikalaiane)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erika-laiane-azevedo)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:erikalaianeazevedosantos@gmail.com)
 
 ---
 
 <div align="center">
-  
-  **Feito com 💜 e ☕ por [Erika Laiane](https://github.com/erikalaiane)**
-  
+
+Desenvolvido com 💜 por Erika Laiane
 
 </div>
