@@ -4,7 +4,7 @@ const Featured = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="relative overflow-hidden rounded-3xl border-8 border-pink-600 shadow-2xl">
           <img 
-            src="/images/img6.jpg" 
+            src="/stylesync-landing/images/img6.jpg" 
             alt="Featured Collection" 
             className="w-full h-96 object-cover"
           />

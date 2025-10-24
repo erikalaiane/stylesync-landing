@@ -7,21 +7,21 @@ const Testimonials = () => {
       role: "Influencer", 
       text: "StyleSync revolucionou minha forma de me vestir!", 
       rating: 5,
-      img: "/images/img11.jpg"
+      img: "/stylesync-landing/images/img11.jpg"
     },
     { 
       name: "João Costa", 
       role: "Executivo", 
       text: "Economizo tempo e sempre estou bem vestido.", 
       rating: 5,
-      img: "/images/img12.jpg"
+      img: "/stylesync-landing/images/img12.jpg"
     },
     { 
       name: "Ana Oliveira", 
       role: "Designer", 
       text: "A IA entende perfeitamente meu estilo!", 
       rating: 5,
-      img: "/images/img13.jpg"
+      img: "/stylesync-landing/images/img13.jpg"
     }
   ];
   

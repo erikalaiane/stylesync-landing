@@ -1,6 +1,6 @@
 const Expertise = () => {
   const categories = [
-    { title: "STREETWEAR", img: "/images/img2.jpg", color: "from-red-900 to-red-700" },
+    { title: "STREETWEAR", img: "/stylesync-landing/images/img2.jpg", color: "from-red-900 to-red-700" },
     { title: "CASUAL CHIC", img: "/stylesync-landing/images/img3.jpg", color: "from-pink-600 to-pink-400" },
     { title: "BUSINESS", img: "/stylesync-landing/images/img4.jpg", color: "from-gray-800 to-gray-600" },
     { title: "EVENING", img: "/stylesync-landing/images/img5.jpg", color: "from-purple-900 to-red-900" }

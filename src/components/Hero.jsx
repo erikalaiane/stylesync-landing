@@ -36,7 +36,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-pink-600 to-red-900 transform rotate-3 rounded-3xl opacity-20 blur-2xl"></div>
             <div className="relative bg-gray-800 rounded-3xl p-8 border-4 border-pink-600 transform -rotate-2 shadow-2xl">
               <img 
-                src="/images/img1.jpg" 
+                src="/stylesync-landing/images/img1.jpg" 
                 className="rounded-2xl w-full h-96 object-cover"
               />
               <div className="absolute -top-4 -right-4 bg-yellow-400 text-gray-900 px-6 py-3 transform rotate-12 font-black text-xl shadow-xl">
