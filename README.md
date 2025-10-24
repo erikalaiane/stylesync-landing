@@ -49,8 +49,7 @@ Landing page moderna e elegante para plataforma de consultoria de moda personali
 ### Desktop View
 ![Desktop Preview](./public/images/capa1.png)
 
-### Mobile View
-![Mobile Preview](./public/images/capa2.png)
+![Desktop Preview](./public/images/capa2.png)
 
 **[🚀 Ver Demo ao Vivo](https://erikalaiane.github.io/stylesync-landing/)**
 
