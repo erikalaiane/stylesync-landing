@@ -1,8 +1,9 @@
-# 💎 StyleSync - Landing Page
+# StyleSync - Landing Page
 
 <div align="center">
   
   ![StyleSync Banner](./capa1.png)
+  ![StyleSync Banner](./capa2.png)
   
   <p align="center">
     <strong>Seu stylist pessoal, sempre disponível ✨</strong>
@@ -15,11 +16,11 @@
   <p align="center">
     <a href="https://erikalaiane.github.io/stylesync-landing/">🌐 Ver Demo</a>
     ·
-    <a href="#-sobre">📖 Sobre</a>
+    <a href="#-sobre"> Sobre</a>
     ·
-    <a href="#-tecnologias">🛠️ Tecnologias</a>
+    <a href="#-tecnologias"> Tecnologias</a>
     ·
-    <a href="#-contato">💌 Contato</a>
+    <a href="#-contato"> Contato</a>
   </p>
 
   ![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white)
@@ -97,7 +98,7 @@ Antes de começar, certifique-se de ter instalado:
 git clone https://github.com/erikalaiane/stylesync-landing.git
 ```
 
-2. Entre no diretório do projeto
+2. Entre no diretório do projetox
 ```bash
 cd stylesync-landing
 ```
